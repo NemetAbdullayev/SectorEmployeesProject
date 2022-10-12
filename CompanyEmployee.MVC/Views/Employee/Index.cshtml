@@ -1,0 +1,38 @@
+﻿@model List<EntityLayer.DTOs.EmployeeDTOs.EmployeeToListDTO>
+@{
+    Layout = "MyLayout";
+}
+<table class="table table-bordered">
+    <thead class="table-active">
+        <tr>
+            <td>Id</td>
+            <td>EmployeeName</td>
+            <td>Surname</td>
+            <td>Salary</td>
+            <td>SectorName</td>
+            <td>DepartmentName</td>
+            <td>Delete</td>
+            <td>Update</td>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+
+        <tr>
+            <td>@item.EmpId </td>
+            <td>@item.EmpName</td>
+            <td>@item.Surname</td>
+            <td>@item.Salary</td>
+            <td>@item.Sector.SectorName</td>
+            <td>@item.Sector.Department.DepartmentName</td>
+            <td><a href="/Employee/Delete/@item.EmpId" class="btn btn-danger", onclick="return confirm('Do you want to delete?')">Delete</a></td>
+            <td>  @Html.ActionLink("Update", "CreateEmployee", "Employee", new { id = item.EmpId }, new { @class = "btn btn-success" }) </td>
+
+        </tr>
+
+        }
+    </tbody>
+</table>
+<a href="/Employee/CreateEmployee" class="btn btn-primary">Create  </a>

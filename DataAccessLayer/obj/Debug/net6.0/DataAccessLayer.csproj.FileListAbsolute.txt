@@ -1,0 +1,17 @@
+C:\CompanyEmployeesProject\DataAccessLayer\bin\Debug\net6.0\DataAccessLayer.deps.json
+C:\CompanyEmployeesProject\DataAccessLayer\bin\Debug\net6.0\DataAccessLayer.dll
+C:\CompanyEmployeesProject\DataAccessLayer\bin\Debug\net6.0\DataAccessLayer.pdb
+C:\CompanyEmployeesProject\DataAccessLayer\bin\Debug\net6.0\EntityLayer.dll
+C:\CompanyEmployeesProject\DataAccessLayer\bin\Debug\net6.0\EntityLayer.pdb
+C:\CompanyEmployeesProject\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.csproj.AssemblyReference.cache
+C:\CompanyEmployeesProject\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\CompanyEmployeesProject\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.AssemblyInfoInputs.cache
+C:\CompanyEmployeesProject\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.AssemblyInfo.cs
+C:\CompanyEmployeesProject\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\CompanyEmployeesProject\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.csproj.CopyComplete
+C:\CompanyEmployeesProject\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.dll
+C:\CompanyEmployeesProject\DataAccessLayer\obj\Debug\net6.0\refint\DataAccessLayer.dll
+C:\CompanyEmployeesProject\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.pdb
+C:\CompanyEmployeesProject\DataAccessLayer\obj\Debug\net6.0\ref\DataAccessLayer.dll
+C:\CompanyEmployeesProject\DataAccessLayer\bin\Debug\net6.0\DataAccessLayer.runtimeconfig.json
+C:\CompanyEmployeesProject\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.genruntimeconfig.cache

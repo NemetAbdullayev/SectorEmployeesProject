@@ -1,0 +1,14 @@
+C:\CompanyEmployeesProject\EntityLayer\bin\Debug\net6.0\EntityLayer.deps.json
+C:\CompanyEmployeesProject\EntityLayer\bin\Debug\net6.0\EntityLayer.dll
+C:\CompanyEmployeesProject\EntityLayer\bin\Debug\net6.0\EntityLayer.pdb
+C:\CompanyEmployeesProject\EntityLayer\obj\Debug\net6.0\EntityLayer.csproj.AssemblyReference.cache
+C:\CompanyEmployeesProject\EntityLayer\obj\Debug\net6.0\EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\CompanyEmployeesProject\EntityLayer\obj\Debug\net6.0\EntityLayer.AssemblyInfoInputs.cache
+C:\CompanyEmployeesProject\EntityLayer\obj\Debug\net6.0\EntityLayer.AssemblyInfo.cs
+C:\CompanyEmployeesProject\EntityLayer\obj\Debug\net6.0\EntityLayer.csproj.CoreCompileInputs.cache
+C:\CompanyEmployeesProject\EntityLayer\obj\Debug\net6.0\EntityLayer.dll
+C:\CompanyEmployeesProject\EntityLayer\obj\Debug\net6.0\refint\EntityLayer.dll
+C:\CompanyEmployeesProject\EntityLayer\obj\Debug\net6.0\EntityLayer.pdb
+C:\CompanyEmployeesProject\EntityLayer\obj\Debug\net6.0\ref\EntityLayer.dll
+C:\CompanyEmployeesProject\EntityLayer\bin\Debug\net6.0\EntityLayer.runtimeconfig.json
+C:\CompanyEmployeesProject\EntityLayer\obj\Debug\net6.0\EntityLayer.genruntimeconfig.cache

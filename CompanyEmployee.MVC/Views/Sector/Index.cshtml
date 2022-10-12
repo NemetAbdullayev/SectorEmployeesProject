@@ -1,0 +1,33 @@
+﻿@model List<EntityLayer.DTOs.SectorDTOs.SectorToListDTO>
+@{
+    Layout = "MyLayout";
+}
+<table class="table table-bordered">
+    <thead class="table-active">
+        <tr>
+            <td>SectorId</td>
+            <td>SectorName</td>
+            <td>DEPName</td>
+            <td>Delete</td>
+            <td>Update</td>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+
+        <tr>
+            <td>@item.SectorId</td>
+            <td>@item.SectorName</td>
+            <td>@item.Department.DepartmentName</td>
+            <td><a href="/Sector/Delete/@item.SectorId" class="btn btn-danger", onclick="return confirm ('Do you want to delete?')">Delete</a></td>
+            <td>@Html.ActionLink("Update", "CreateSector", "Sector", new { id = item.SectorId }, new { @class = "btn btn-success" })</td>
+
+          
+        </tr>
+
+        }
+    </tbody>
+</table>
+<a href="/Sector/CreateSector" class="btn btn-primary">Create</a>
