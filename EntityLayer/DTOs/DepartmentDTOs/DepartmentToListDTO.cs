@@ -11,6 +11,7 @@ namespace EntityLayer.DTOs.DepartmentDTOs
         public int DepartmentId { get; set; }
 
         public string DepartmentName { get; set; }
+        public string DepartmentType { get; set; }
 
         public bool IsDeleted { get; set; }
 

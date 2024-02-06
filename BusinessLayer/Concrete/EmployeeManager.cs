@@ -17,12 +17,10 @@ namespace BusinessLayer.Concrete
 
         private readonly IGenericRepository<Employee> _employeeRepository;
         private readonly IMapper _mapper;
-        private readonly DatabaseContext _databaseContext;
         public EmployeeManager(IGenericRepository<Employee> employeeRepository, IMapper mapper, DatabaseContext databaseContext)
         {
             _employeeRepository = employeeRepository;
             _mapper = mapper;
-            _databaseContext = databaseContext;
         }
 
         public async Task<EmployeeToListDTO> Add(EmployeeToAddOrUpdateDTO employeeToAddOrUpdateDTO)

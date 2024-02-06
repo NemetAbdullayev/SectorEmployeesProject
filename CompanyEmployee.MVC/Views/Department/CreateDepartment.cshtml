@@ -25,7 +25,12 @@
         <span asp-validation-for="DepartmentName" style="color:red"></span>
 
     </div>
+    <div class="form-group">
+        <label>DepartmentName</label>
+        <input type="text" asp-for="DepartmentType" class="form-control" id="name" placeholder="Enter DepartmentName...">
+        <span asp-validation-for="DepartmentType" style="color:red"></span>
 
+    </div>
 
     <button type="submit" class="btn btn-primary">Create</button>
 </form>

@@ -17,12 +17,12 @@ namespace BusinessLayer.Concrete
 
         private readonly IGenericRepository<Department> _departmentRepository;
         private readonly IMapper _mapper;
-        private readonly DatabaseContext _databaseContext;
+     
         public DepartmentManager(IGenericRepository<Department> departmentRepository, IMapper mapper, DatabaseContext databaseContext)
+
         {
             _departmentRepository = departmentRepository;
             _mapper = mapper;
-            _databaseContext = databaseContext;
         }
         public async Task<DepartmentToListDTO> Add(DepartmentToAddOrUpdateDTO departmentToAddOrUpdateDTO)
         {

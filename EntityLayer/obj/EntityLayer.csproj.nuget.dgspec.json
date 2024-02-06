@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\CompanyEmployeesProject\\EntityLayer\\EntityLayer.csproj": {}
+    "C:\\Users\\nemet.a\\Desktop\\sd\\SectorEmployeesProject\\EntityLayer\\EntityLayer.csproj": {}
   },
   "projects": {
-    "C:\\CompanyEmployeesProject\\EntityLayer\\EntityLayer.csproj": {
+    "C:\\Users\\nemet.a\\Desktop\\sd\\SectorEmployeesProject\\EntityLayer\\EntityLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\CompanyEmployeesProject\\EntityLayer\\EntityLayer.csproj",
+        "projectUniqueName": "C:\\Users\\nemet.a\\Desktop\\sd\\SectorEmployeesProject\\EntityLayer\\EntityLayer.csproj",
         "projectName": "EntityLayer",
-        "projectPath": "C:\\CompanyEmployeesProject\\EntityLayer\\EntityLayer.csproj",
+        "projectPath": "C:\\Users\\nemet.a\\Desktop\\sd\\SectorEmployeesProject\\EntityLayer\\EntityLayer.csproj",
         "packagesPath": "C:\\Users\\nemet.a\\.nuget\\packages\\",
-        "outputPath": "C:\\CompanyEmployeesProject\\EntityLayer\\obj\\",
+        "outputPath": "C:\\Users\\nemet.a\\Desktop\\sd\\SectorEmployeesProject\\EntityLayer\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages"
+        ],
         "configFilePaths": [
           "C:\\Users\\nemet.a\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 23.2\\Components\\System\\Components\\Packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -66,15 +71,15 @@
               "target": "Package",
               "version": "[6.0.10, )"
             },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.10, )"
-            },
-            "Npgsql.EntityFrameworkCore.PostgreSQL": {
-              "target": "Package",
-              "version": "[6.0.7, )"
             }
           },
           "imports": [
@@ -93,7 +98,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

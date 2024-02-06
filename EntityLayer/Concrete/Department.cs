@@ -12,7 +12,7 @@ namespace EntityLayer.Concrete
         public int DepartmentId { get; set; }
        
         public string DepartmentName { get; set; }
-
+        public string DepartmentType { get; set; }
         public bool IsDeleted { get; set; }
         public virtual List<Sector> Sectors { get; set; }
     }

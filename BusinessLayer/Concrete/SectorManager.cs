@@ -17,12 +17,10 @@ namespace BusinessLayer.Concrete
 
         private readonly IGenericRepository<Sector> _sectorRepository;
         private readonly IMapper _mapper;
-        private readonly DatabaseContext _databaseContext;
         public SectorManager(IGenericRepository<Sector> sectorRepository, IMapper mapper, DatabaseContext databaseContext)
         {
             _sectorRepository = sectorRepository;
             _mapper = mapper;
-            _databaseContext = databaseContext;
         }
 
         public async Task<SectorToListDTO> Add(SectorToAddOrUpdateDTO sectorToAddOrUpdateDTO)

@@ -43,25 +43,7 @@ namespace CompanyEmployee.MVC.Controllers
           
           
             List<DepartmentToListDTO> departments = await _departmentService.Get();
-            List<SelectListItem> selectListItems1 = (from i in departments
-                                                     select new SelectListItem
-                                                     {
-
-                                                         Text = i.DepartmentName,
-                                                         Value = i.DepartmentId.ToString()
-
-                                                     }
-
-
-                                     ).ToList();
-//            foreach (var sector in sectors)
-//            {
-//if(sector.Department.IsDeleted==true)
-//                {
-//                    sector.IsDeleted = true;
-//                }
-//            }
-            ViewBag.dgr1 = selectListItems1;
+           
 
 
             return View(sectors);
@@ -96,7 +78,20 @@ namespace CompanyEmployee.MVC.Controllers
 
 
             SectorValidatior validationRules = new SectorValidatior();
+            List<DepartmentToListDTO> departments = await _departmentService.Get();
             ValidationResult results = validationRules.Validate(sectorToAddOrUpdateDTO);
+            List<SelectListItem> selectListItems1 = (from i in departments
+                                                     select new SelectListItem
+                                                     {
+
+                                                         Text = i.DepartmentName,
+                                                         Value = i.DepartmentId.ToString()
+
+                                                     }
+
+
+                                               ).ToList();
+            ViewBag.dgr1 = selectListItems1;
 
             if (results.IsValid)
             {

@@ -12,3 +12,17 @@ C:\CompanyEmployeesProject\EntityLayer\obj\Debug\net6.0\EntityLayer.pdb
 C:\CompanyEmployeesProject\EntityLayer\obj\Debug\net6.0\ref\EntityLayer.dll
 C:\CompanyEmployeesProject\EntityLayer\bin\Debug\net6.0\EntityLayer.runtimeconfig.json
 C:\CompanyEmployeesProject\EntityLayer\obj\Debug\net6.0\EntityLayer.genruntimeconfig.cache
+C:\Users\nemet.a\Desktop\sd\SectorEmployeesProject\EntityLayer\bin\Debug\net6.0\EntityLayer.deps.json
+C:\Users\nemet.a\Desktop\sd\SectorEmployeesProject\EntityLayer\bin\Debug\net6.0\EntityLayer.runtimeconfig.json
+C:\Users\nemet.a\Desktop\sd\SectorEmployeesProject\EntityLayer\bin\Debug\net6.0\EntityLayer.dll
+C:\Users\nemet.a\Desktop\sd\SectorEmployeesProject\EntityLayer\bin\Debug\net6.0\EntityLayer.pdb
+C:\Users\nemet.a\Desktop\sd\SectorEmployeesProject\EntityLayer\obj\Debug\net6.0\EntityLayer.csproj.AssemblyReference.cache
+C:\Users\nemet.a\Desktop\sd\SectorEmployeesProject\EntityLayer\obj\Debug\net6.0\EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nemet.a\Desktop\sd\SectorEmployeesProject\EntityLayer\obj\Debug\net6.0\EntityLayer.AssemblyInfoInputs.cache
+C:\Users\nemet.a\Desktop\sd\SectorEmployeesProject\EntityLayer\obj\Debug\net6.0\EntityLayer.AssemblyInfo.cs
+C:\Users\nemet.a\Desktop\sd\SectorEmployeesProject\EntityLayer\obj\Debug\net6.0\EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\nemet.a\Desktop\sd\SectorEmployeesProject\EntityLayer\obj\Debug\net6.0\EntityLayer.dll
+C:\Users\nemet.a\Desktop\sd\SectorEmployeesProject\EntityLayer\obj\Debug\net6.0\refint\EntityLayer.dll
+C:\Users\nemet.a\Desktop\sd\SectorEmployeesProject\EntityLayer\obj\Debug\net6.0\EntityLayer.pdb
+C:\Users\nemet.a\Desktop\sd\SectorEmployeesProject\EntityLayer\obj\Debug\net6.0\EntityLayer.genruntimeconfig.cache
+C:\Users\nemet.a\Desktop\sd\SectorEmployeesProject\EntityLayer\obj\Debug\net6.0\ref\EntityLayer.dll

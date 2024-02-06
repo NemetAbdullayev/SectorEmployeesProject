@@ -9,6 +9,7 @@
         <tr>
             <td>DepartmentId</td>
             <td>DepartmentName</td>
+            <td>DepartmentType</td>
             <td>Delete</td>
             <td>Update</td>
             
@@ -22,6 +23,7 @@
 
                 <td>@item.DepartmentId</td>
                 <td>@item.DepartmentName</td>
+                <td>@item.DepartmentType</td>
                 <td><a href="/Department/Delete/@item.DepartmentId" class="btn btn-danger", onclick="return confirm ('Do you want to delete ?')" >Delete</a></td>
             
                 <td>@Html.ActionLink("Update","CreateDepartment","Department",new  { id = item.DepartmentId },new  {@class="btn btn-success" })</td>

@@ -2,6 +2,7 @@
 using EntityLayer.Concrete;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
 using System.Security.Cryptography.X509Certificates;
 
 namespace DataAccessLayer.Concrete.Context
@@ -19,6 +20,7 @@ namespace DataAccessLayer.Concrete.Context
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseLazyLoadingProxies();
+            optionsBuilder.UseSqlServer("Server=.;Database=CompanyEmployee;Integrated Security=True;");
         }
 
 
@@ -26,6 +28,7 @@ namespace DataAccessLayer.Concrete.Context
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
+            
             modelBuilder.Entity<Department>().HasQueryFilter(m => !m.IsDeleted);
             modelBuilder.Entity<Sector>().HasQueryFilter(m => !m.IsDeleted);
             modelBuilder.Entity<Employee>().HasQueryFilter(m => !m.IsDeleted);

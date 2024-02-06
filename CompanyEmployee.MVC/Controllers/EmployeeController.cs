@@ -35,23 +35,7 @@ namespace CompanyEmployee.MVC.Controllers
         public async Task<IActionResult> Index()
         {
             var employees =await _employeeService.Get();
-            List<SectorToListDTO> sectors = await _sectorServices.Get();
            
-
-
-                                            
-            List<SelectListItem> selectListItems = (from i in sectors 
-                                                    select new SelectListItem
-                                                    {
-
-                                                        Text = i.SectorName,
-                                                        Value = i.SectorId.ToString()
-
-                                                    }
-
-
-                                                ).ToList();
-            ViewBag.dgr = selectListItems;
            
          
             
@@ -83,7 +67,23 @@ namespace CompanyEmployee.MVC.Controllers
         {
            EmployeeValidatior validationRules = new EmployeeValidatior();
             ValidationResult results = validationRules.Validate(employeeToAddOrUpdateDTO);
+            List<SectorToListDTO> sectors = await _sectorServices.Get();
 
+
+
+
+            List<SelectListItem> selectListItems = (from i in sectors
+                                                    select new SelectListItem
+                                                    {
+
+                                                        Text = i.SectorName,
+                                                        Value = i.SectorId.ToString()
+
+                                                    }
+
+
+                                                ).ToList();
+            ViewBag.dgr = selectListItems;
             if (results.IsValid)
             {
 
